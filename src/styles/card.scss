@@ -17,12 +17,11 @@
 
     display: flex;
 
-    margin: auto;
+    margin-inline: auto;
     width: 279px;
     .c-heading {
-      font-size: 22px;
-
       margin-bottom: 16px;
+      font-size: 22px;
 
       color: hsl(223, 47%, 23%);
     }
@@ -95,7 +94,12 @@
 
       cursor: pointer;
     }
+    .c-button:active {
+      transform: translateY(3px);
+    }
     .c-cancel {
+      margin-bottom: 33px;
+
       font-size: 15px;
 
       color: hsl(224, 23%, 55%);
