@@ -1,0 +1,106 @@
+.c-card {
+  box-shadow: hsla(228, 87, 89, 15%) 0 40px 20px -20px;
+  border-radius: 20px;
+  width: 327px;
+  height: 567px;
+
+  background-color: hsl(0, 0%, 100%);
+  .c-hero {
+    margin-bottom: 32px;
+    border-radius: 20px 20px 0 0;
+    width: 327px;
+    height: 160px;
+  }
+  .c-content-wrapper {
+    flex-direction: column;
+    align-items: center;
+
+    display: flex;
+
+    margin: auto;
+    width: 279px;
+    .c-heading {
+      font-size: 22px;
+
+      margin-bottom: 16px;
+
+      color: hsl(223, 47%, 23%);
+    }
+    .c-body {
+      margin-bottom: 24px;
+      width: 263px;
+
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 25px;
+
+      text-align: center;
+
+      color: hsl(224, 23%, 55%);
+    }
+    .c-price-wrapper {
+      flex-direction: row;
+      align-items: center;
+
+      display: flex;
+
+      margin-bottom: 24px;
+      border-radius: 11px;
+      width: 279px;
+      height: 81px;
+
+      background-color: hsl(225, 100%, 98%);
+      .c-icon {
+        margin-left: 16px;
+      }
+      .c-price-text-container {
+        margin-left: 24px;
+        width: 82px;
+        .c-price-dark {
+          margin-bottom: 4px;
+
+          font-size: 14px;
+
+          color: hsl(223, 47%, 23%);
+        }
+        .c-price-light {
+          font-size: 14px;
+
+          color: hsl(224, 23%, 55%);
+        }
+      }
+      .c-price-edit {
+        margin-left: 49px;
+
+        font-size: 13px;
+        text-decoration: underline;
+
+        color: hsl(245, 75%, 52%);
+
+        cursor: pointer;
+      }
+    }
+    .c-button {
+      box-shadow: hsla(245, 75, 52, 19%) 0 20px 20px 0;
+      margin-bottom: 24px;
+      border-radius: 12px;
+      border-style: none;
+      width: 279px;
+      height: 50px;
+
+      font-size: 15px;
+
+      color: hsl(0, 0%, 100%);
+      background-color: hsl(245, 75%, 52%);
+
+      cursor: pointer;
+    }
+    .c-cancel {
+      font-size: 15px;
+
+      color: hsl(224, 23%, 55%);
+
+      cursor: pointer;
+    }
+  }
+}
