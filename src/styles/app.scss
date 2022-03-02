@@ -19,7 +19,13 @@
 
   background-image: url(../assets/pattern-background-mobile.svg);
   background-size: 639px 194px;
-  background-position-x: -132px;
   background-repeat: no-repeat;
   background-color: hsl(225, 100%, 94%);
+}
+
+@media only screen and (min-width: 639px) {
+  .a-wrapper {
+    background-image: url(../assets/pattern-background-desktop.svg);
+    background-size: 100% 437px;
+  }
 }
