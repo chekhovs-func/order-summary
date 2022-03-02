@@ -21,8 +21,8 @@
     width: 279px;
     .c-heading {
       margin-bottom: 16px;
-      font-size: 22px;
 
+      font-size: 22px;
       color: hsl(223, 47%, 23%);
     }
     .c-body {
@@ -34,7 +34,6 @@
       line-height: 25px;
 
       text-align: center;
-
       color: hsl(224, 23%, 55%);
     }
     .c-price-wrapper {
@@ -59,12 +58,10 @@
           margin-bottom: 4px;
 
           font-size: 14px;
-
           color: hsl(223, 47%, 23%);
         }
         .c-price-light {
           font-size: 14px;
-
           color: hsl(224, 23%, 55%);
         }
       }
@@ -73,13 +70,18 @@
 
         font-size: 13px;
         text-decoration: underline;
-
         color: hsl(245, 75%, 52%);
 
         cursor: pointer;
       }
+      .c-price-edit:hover {
+        text-decoration: none;
+        color: hsl(245, 83, 68);
+      }
     }
     .c-button {
+      transition: 0.2s ease-in-out;
+
       box-shadow: hsla(245, 75, 52, 19%) 0 20px 20px 0;
       margin-bottom: 24px;
       border-radius: 12px;
@@ -88,11 +90,16 @@
       height: 50px;
 
       font-size: 15px;
-
       color: hsl(0, 0%, 100%);
+
       background-color: hsl(245, 75%, 52%);
 
       cursor: pointer;
+    }
+    .c-button:hover {
+      transition: 0.2s ease-in-out;
+
+      background-color: hsl(245, 83, 68);
     }
     .c-button:active {
       transform: translateY(3px);
@@ -101,10 +108,12 @@
       margin-bottom: 33px;
 
       font-size: 15px;
-
       color: hsl(224, 23%, 55%);
 
       cursor: pointer;
+    }
+    .c-cancel:hover {
+      font-weight: 500;
     }
   }
 }
