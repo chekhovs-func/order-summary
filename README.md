@@ -14,7 +14,7 @@ This is a solution to the [Order summary component on Frontend Mentor](https://w
 
 ### Screenshot
 
-![](public/assets/desktop-preview.png)
+![](public/desktop-preview.png)
 
 ### Live Page
 
@@ -22,10 +22,9 @@ A live version of this repo can be found [here](https://chekhhovs-func.github.io
 
 ### Built with
 
-- Semantic HTML5 markup
-- [Sass](https://sass-lang.com/) - For styles
-- Flexbox
 - [React](https://reactjs.org/) - JS library
+- [SCSS](https://sass-lang.com/) - For styles
+- HTML5
 - Mobile-first workflow
 
 ## Author
