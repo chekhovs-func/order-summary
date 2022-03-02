@@ -18,7 +18,7 @@ This is a solution to the [Order summary component on Frontend Mentor](https://w
 
 ### Live Page
 
-A live version of this repo can be found [here](https://chekhhovs-func.github.io/order-summary).
+A live version of this repo can be found [here](https://chekhovs-func.github.io/order-summary/).
 
 ### Built with
 
